@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.JLabel" name="jLabel17">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel17"/>
+      </Properties>
+    </Component>
+  </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[680, 600]"/>
+      <Dimension value="[680, 615]"/>
     </Property>
   </Properties>
   <SyntheticProperties>
@@ -48,11 +55,7 @@
                   <Component id="btn1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="248" max="32767" attributes="0"/>
+                  <EmptySpace pref="458" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -63,8 +66,6 @@
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="btn1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="20" max="32767" attributes="0"/>
               </Group>
@@ -91,200 +92,8 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton3">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Sales Report"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Inventory"/>
-          </Properties>
-        </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JButton" name="btnswd">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="-"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnswdActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="362" y="519" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtsw">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtswActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="395" y="522" width="40" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnswi">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnswiActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="441" y="519" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JButton" name="btndd">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="-"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnddActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="541" y="519" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtd">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtdActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="574" y="522" width="40" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JButton" name="btndi">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btndiActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="620" y="519" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JCheckBox" name="sandwich">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Sandwich"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sandwichActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="377" y="493" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel5">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/image/sandwich.jpg"/>
-        </Property>
-      </Properties>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="368" y="387" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnfi">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="+"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnfiActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="441" y="345" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JTextField" name="txtf">
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtfActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="396" y="345" width="39" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnfd">
-      <Properties>
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI" size="14" style="1"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="-"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnfdActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="363" y="345" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JCheckBox" name="fries">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Fries"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="friesActionPerformed"/>
-      </Events>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="390" y="310" width="-1" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
-    <Component class="javax.swing.JLabel" name="jLabel3">
-      <Properties>
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/image/63cc6125-023e-4627-8818-89a34370 (1).jpg"/>
-        </Property>
-        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-          <Dimension value="[150, 100]"/>
-        </Property>
-      </Properties>
-      <Constraints>
-        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="370" y="200" width="99" height="-1"/>
-        </Constraint>
-      </Constraints>
-    </Component>
     <Component class="javax.swing.JLabel" name="jLabel11">
       <Properties>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
@@ -340,65 +149,37 @@
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
-                                  <Group type="102" attributes="0">
-                                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
-                                      <Component id="burger" min="-2" max="-2" attributes="0"/>
-                                  </Group>
-                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="btnbmd" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="txtbm" min="-2" pref="40" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="btnbmi" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="1" attributes="0">
-                                  <Component id="btnsd" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="txts" min="-2" pref="40" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="btnsi" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                          </Group>
+                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                          <Component id="spag" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="40" max="32767" attributes="0"/>
+                  <EmptySpace pref="21" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="90" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
                   <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Component id="burger" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="btnbmi" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtbm" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnbmd" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel15" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="58" max="-2" attributes="0"/>
                   <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="spag" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="btnsi" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txts" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnsd" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="32" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jLabel21" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="76" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -411,41 +192,6 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JCheckBox" name="burger">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Burger Meal"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="burgerActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="btnbmi">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="14" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="+"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbmiActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JTextField" name="txtbm">
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtbmActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="btnbmd">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="14" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="-"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnbmdActionPerformed"/>
-          </Events>
-        </Component>
         <Component class="javax.swing.JLabel" name="jLabel7">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
@@ -453,40 +199,21 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JCheckBox" name="spag">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Spaghetti"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="spagActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="btnsi">
+        <Component class="javax.swing.JLabel" name="jLabel15">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="14" style="1"/>
+              <Font name="Times New Roman" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="+"/>
+            <Property name="text" type="java.lang.String" value="Burger meal &#x20b1;129.00"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsiActionPerformed"/>
-          </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="txts">
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtsActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="btnsd">
+        <Component class="javax.swing.JLabel" name="jLabel21">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="14" style="1"/>
+              <Font name="Times New Roman" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="-"/>
+            <Property name="text" type="java.lang.String" value="Spaghetti &#x20b1;89.00"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnsdActionPerformed"/>
-          </Events>
         </Component>
       </SubComponents>
     </Container>
@@ -508,43 +235,33 @@
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <Group type="103" groupAlignment="1" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="btnwd" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="txtw" min="-2" pref="40" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Component id="btnwi" min="-2" max="-2" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                       </Group>
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jLabel10" min="-2" pref="80" max="-2" attributes="0"/>
-                                  <Component id="milkshake" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel4" alignment="1" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel22" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel25" alignment="0" min="-2" max="-2" attributes="0"/>
                           </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                              <Component id="btnmsd" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="txtms" min="-2" pref="40" max="-2" attributes="0"/>
-                              <EmptySpace max="-2" attributes="0"/>
-                              <Component id="btnmsi" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" alignment="0" attributes="0">
-                              <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="water" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                              </Group>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel14" min="-2" pref="112" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
-                  <EmptySpace pref="49" max="32767" attributes="0"/>
+                  <EmptySpace pref="40" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -553,27 +270,19 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                   <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="milkshake" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel14" min="-2" pref="19" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="txtms" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnmsi" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnmsd" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
+                  <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
                   <EmptySpace type="separate" max="-2" attributes="0"/>
                   <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                  <Component id="water" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="btnwi" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtw" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnwd" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="37" max="32767" attributes="0"/>
+                  <Component id="jLabel22" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="83" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -594,43 +303,8 @@
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
               <Font name="Times New Roman" size="24" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="Drinks"/>
+            <Property name="text" type="java.lang.String" value="Beverages"/>
           </Properties>
-        </Component>
-        <Component class="javax.swing.JCheckBox" name="milkshake">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Milkshake"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="milkshakeActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JTextField" name="txtms">
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtmsActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="btnmsi">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="14" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="+"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnmsiActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="btnmsd">
-          <Properties>
-            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="14" style="1"/>
-            </Property>
-            <Property name="text" type="java.lang.String" value="-"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnmsdActionPerformed"/>
-          </Events>
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
@@ -639,40 +313,31 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JCheckBox" name="water">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Water"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="waterActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="btnwi">
+        <Component class="javax.swing.JLabel" name="jLabel14">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="14" style="1"/>
+              <Font name="Times New Roman" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="+"/>
+            <Property name="text" type="java.lang.String" value="Choco Milkshake"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnwiActionPerformed"/>
-          </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="txtw">
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtwActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="btnwd">
+        <Component class="javax.swing.JLabel" name="jLabel22">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="14" style="1"/>
+              <Font name="Times New Roman" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="-"/>
+            <Property name="text" type="java.lang.String" value="Water &#x20b1;20.00"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnwdActionPerformed"/>
-          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel25">
+          <Properties>
+            <Property name="text" type="java.lang.String" value=" ( Venti ) &#x20b1;59.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel26">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="( Grande ) &#x20b1;79.00"/>
+          </Properties>
         </Component>
       </SubComponents>
     </Container>
@@ -695,9 +360,32 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="1" attributes="0">
-                  <EmptySpace pref="56" max="32767" attributes="0"/>
-                  <Component id="jLabel12" min="-2" pref="80" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                  <EmptySpace pref="23" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel12" min="-2" pref="80" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="99" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -706,7 +394,19 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                   <Component id="jLabel12" min="-2" pref="21" max="-2" attributes="0"/>
-                  <EmptySpace pref="417" max="32767" attributes="0"/>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel16" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel24" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="81" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -718,6 +418,55 @@
               <Font name="Times New Roman" size="24" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Snacks"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel16">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Barkada Fries &#x20b1;99.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel20">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Sandwich &#x20b1;20.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/image/63cc6125-023e-4627-8818-89a34370 (1).jpg"/>
+            </Property>
+            <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+              <Dimension value="[150, 100]"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/image/sandwich.jpg"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel23">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="BFF Fries &#x20b1;59.00"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel24">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Times New Roman" size="14" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Solo Fries &#x20b1;20.00"/>
           </Properties>
         </Component>
       </SubComponents>
@@ -738,33 +487,25 @@
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" attributes="0">
-                  <EmptySpace pref="38" max="32767" attributes="0"/>
+                  <EmptySpace pref="44" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <Group type="103" groupAlignment="1" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <Component id="btncd" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="txtc" min="-2" pref="40" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="btnci" min="-2" max="-2" attributes="0"/>
-                              </Group>
-                              <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="cookie" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
-                      </Group>
-                      <Group type="102" alignment="1" attributes="0">
-                          <Component id="donut" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
-                      </Group>
                       <Group type="102" alignment="1" attributes="0">
                           <Component id="jLabel13" min="-2" pref="70" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                                  <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
                       </Group>
                   </Group>
               </Group>
@@ -775,21 +516,15 @@
               <Group type="102" alignment="0" attributes="0">
                   <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                   <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
                   <Component id="jLabel2" min="-2" pref="101" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="cookie" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="btncd" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="txtc" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="btnci" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
                   <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="donut" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="65" max="32767" attributes="0"/>
+                  <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="84" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -817,48 +552,21 @@
             </Property>
           </Properties>
         </Component>
-        <Component class="javax.swing.JCheckBox" name="cookie">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Cookie"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cookieActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JTextField" name="txtc">
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtcActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="btnci">
+        <Component class="javax.swing.JLabel" name="jLabel18">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="14" style="1"/>
+              <Font name="Times New Roman" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="+"/>
+            <Property name="text" type="java.lang.String" value="Cookies &#x20b1;15.00"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnciActionPerformed"/>
-          </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btncd">
+        <Component class="javax.swing.JLabel" name="jLabel19">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Segoe UI" size="14" style="1"/>
+              <Font name="Times New Roman" size="14" style="1"/>
             </Property>
-            <Property name="text" type="java.lang.String" value="-"/>
+            <Property name="text" type="java.lang.String" value="Donut &#x20b1;20.00"/>
           </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btncdActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JCheckBox" name="donut">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Donut"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="donutActionPerformed"/>
-          </Events>
         </Component>
       </SubComponents>
     </Container>

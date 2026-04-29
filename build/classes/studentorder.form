@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Menu class="java.awt.PopupMenu" name="popupMenu1">
+      <Properties>
+        <Property name="label" type="java.lang.String" value="popupMenu1"/>
+      </Properties>
+    </Menu>
+  </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
     <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[680, 600]"/>
+      <Dimension value="[680, 615]"/>
     </Property>
   </Properties>
   <SyntheticProperties>
@@ -21,7 +28,7 @@
     <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="3"/>
     <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
     <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
-    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,44,0,0,2,-103"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,2,96,0,0,2,-103"/>
   </AuxValues>
 
   <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
@@ -96,11 +103,7 @@
                   <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
                   <Component id="jButton2" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Component id="jButton4" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace min="0" pref="376" max="32767" attributes="0"/>
+                  <EmptySpace min="0" pref="559" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -111,8 +114,6 @@
                   <Group type="103" groupAlignment="3" attributes="0">
                       <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace pref="16" max="32767" attributes="0"/>
               </Group>
@@ -139,19 +140,6 @@
             <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton3">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Sales report"/>
-          </Properties>
-          <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
-          </Events>
-        </Component>
-        <Component class="javax.swing.JButton" name="jButton4">
-          <Properties>
-            <Property name="text" type="java.lang.String" value="Inventory"/>
-          </Properties>
-        </Component>
       </SubComponents>
     </Container>
     <Container class="javax.swing.JPanel" name="jPanel4">
@@ -162,7 +150,7 @@
       </Properties>
       <Constraints>
         <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-          <AbsoluteConstraints x="0" y="120" width="750" height="440"/>
+          <AbsoluteConstraints x="0" y="120" width="670" height="490"/>
         </Constraint>
       </Constraints>
 
@@ -198,20 +186,20 @@
                                               <Group type="102" attributes="0">
                                                   <Component id="jComboBox2" min="-2" pref="160" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btnsd" min="-2" pref="35" max="-2" attributes="0"/>
+                                                  <Component id="btnsd" min="-2" pref="40" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
                                                   <Component id="txts" min="-2" pref="30" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btnsi" min="-2" pref="35" max="-2" attributes="0"/>
+                                                  <Component id="btnsi" min="-2" pref="40" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" attributes="0">
                                                   <Component id="jComboBox1" min="-2" pref="160" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btnmd" min="-2" pref="35" max="-2" attributes="0"/>
+                                                  <Component id="btnmd" min="-2" pref="40" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
                                                   <Component id="txtm" min="-2" pref="30" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btnmi" min="-2" pref="35" max="-2" attributes="0"/>
+                                                  <Component id="btnmi" min="-2" pref="40" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -226,20 +214,20 @@
                                               <Group type="102" attributes="0">
                                                   <Component id="jComboBox4" min="-2" pref="160" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btntd" min="-2" pref="35" max="-2" attributes="0"/>
+                                                  <Component id="btntd" min="-2" pref="40" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
                                                   <Component id="txtt" min="-2" pref="30" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btnti" min="-2" pref="35" max="-2" attributes="0"/>
+                                                  <Component id="btnti" min="-2" pref="40" max="-2" attributes="0"/>
                                               </Group>
                                               <Group type="102" alignment="0" attributes="0">
                                                   <Component id="jComboBox3" min="-2" pref="160" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btnbd" min="-2" pref="35" max="-2" attributes="0"/>
+                                                  <Component id="btnbd" min="-2" pref="40" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
                                                   <Component id="txtb" min="-2" pref="30" max="-2" attributes="0"/>
                                                   <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="btnbi" min="-2" pref="35" max="-2" attributes="0"/>
+                                                  <Component id="btnbi" min="-2" pref="40" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -249,15 +237,15 @@
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="150" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="153" max="-2" attributes="0"/>
                           <Component id="revbtn" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="submitbtn" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
                           <Component id="clearbtn" min="-2" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace pref="122" max="32767" attributes="0"/>
+                  <EmptySpace pref="22" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
@@ -288,36 +276,29 @@
                       <Component id="txtb" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                       <Component id="btnbi" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
                   </Group>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" attributes="0">
-                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
-                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="btnsd" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="txts" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="btnsi" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="jComboBox2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="jComboBox4" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="btntd" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="txtt" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="btnti" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="0" pref="91" max="32767" attributes="0"/>
-                      </Group>
-                      <Group type="102" attributes="0">
-                          <EmptySpace max="32767" attributes="0"/>
-                          <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="submitbtn" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="clearbtn" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                              <Component id="revbtn" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
-                          </Group>
-                      </Group>
+                  <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="btnsd" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="txts" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="btnsi" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jComboBox2" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="jComboBox4" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="btntd" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="txtt" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="btnti" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="49" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="revbtn" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="submitbtn" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="clearbtn" alignment="3" min="-2" pref="30" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="125" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>

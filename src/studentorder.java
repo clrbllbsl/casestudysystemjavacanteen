@@ -18,6 +18,10 @@ public class studentorder extends javax.swing.JFrame {
      * Creates new form studentorder
      */
     int quantity = 0;
+    int quantitym = 0;
+    int quantitys = 0;
+    int quantityd = 0;
+    int quantityt = 0;
     
     public studentorder() {
         initComponents();
@@ -32,13 +36,12 @@ public class studentorder extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        popupMenu1 = new java.awt.PopupMenu();
         jPanel2 = new javax.swing.JPanel();
         jLabel1 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
-        jButton3 = new javax.swing.JButton();
-        jButton4 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jLabel2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
@@ -68,8 +71,10 @@ public class studentorder extends javax.swing.JFrame {
         submitbtn = new javax.swing.JButton();
         clearbtn = new javax.swing.JButton();
 
+        popupMenu1.setLabel("popupMenu1");
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(680, 600));
+        setPreferredSize(new java.awt.Dimension(680, 615));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jPanel2.setBackground(new java.awt.Color(51, 0, 0));
@@ -108,11 +113,6 @@ public class studentorder extends javax.swing.JFrame {
         jButton2.setText("Place order");
         jButton2.addActionListener(this::jButton2ActionPerformed);
 
-        jButton3.setText("Sales report");
-        jButton3.addActionListener(this::jButton3ActionPerformed);
-
-        jButton4.setText("Inventory");
-
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
@@ -122,11 +122,7 @@ public class studentorder extends javax.swing.JFrame {
                 .addComponent(jButton1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jButton2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jButton4)
-                .addGap(0, 376, Short.MAX_VALUE))
+                .addGap(0, 559, Short.MAX_VALUE))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -134,9 +130,7 @@ public class studentorder extends javax.swing.JFrame {
                 .addGap(21, 21, 21)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jButton1)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3)
-                    .addComponent(jButton4))
+                    .addComponent(jButton2))
                 .addContainerGap(16, Short.MAX_VALUE))
         );
 
@@ -272,19 +266,19 @@ public class studentorder extends javax.swing.JFrame {
                                             .addGroup(jPanel4Layout.createSequentialGroup()
                                                 .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(btnsd, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(btnsd, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                 .addComponent(txts, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(btnsi, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addComponent(btnsi, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                                             .addGroup(jPanel4Layout.createSequentialGroup()
                                                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(btnmd, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(btnmd, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                 .addComponent(txtm, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(btnmi, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                                .addComponent(btnmi, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                                 .addGap(27, 27, 27)
                                 .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addComponent(jLabel7)
@@ -295,28 +289,28 @@ public class studentorder extends javax.swing.JFrame {
                                             .addGroup(jPanel4Layout.createSequentialGroup()
                                                 .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(btntd, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(btntd, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                 .addComponent(txtt, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(btnti, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                                .addComponent(btnti, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))
                                             .addGroup(jPanel4Layout.createSequentialGroup()
                                                 .addComponent(jComboBox3, javax.swing.GroupLayout.PREFERRED_SIZE, 160, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(btnbd, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addComponent(btnbd, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                 .addComponent(txtb, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                                .addComponent(btnbi, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE))))))
+                                                .addComponent(btnbi, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE))))))
                             .addComponent(jLabel3)))
                     .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(150, 150, 150)
+                        .addGap(153, 153, 153)
                         .addComponent(revbtn)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(submitbtn)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(clearbtn)))
-                .addContainerGap(122, Short.MAX_VALUE))
+                .addContainerGap(22, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -343,33 +337,29 @@ public class studentorder extends javax.swing.JFrame {
                     .addComponent(btnbd, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(txtb, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(btnbi, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addGap(12, 12, 12)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(jLabel6)
-                            .addComponent(jLabel8))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(btnsd, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txts, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnsi, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btntd, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(txtt, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(btnti, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 91, Short.MAX_VALUE))
-                    .addGroup(jPanel4Layout.createSequentialGroup()
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(submitbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(clearbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(revbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                .addGap(63, 63, 63))
+                .addGap(12, 12, 12)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel6)
+                    .addComponent(jLabel8))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnsd, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txts, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnsi, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox2, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jComboBox4, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btntd, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(txtt, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnti, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(49, 49, 49)
+                .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(revbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(submitbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(clearbtn, javax.swing.GroupLayout.PREFERRED_SIZE, 30, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(125, Short.MAX_VALUE))
         );
 
-        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 750, 440));
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 120, 670, 490));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -389,28 +379,24 @@ public class studentorder extends javax.swing.JFrame {
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
-    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton3ActionPerformed
-
     private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jComboBox1ActionPerformed
 
     private void btnmdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnmdActionPerformed
         // TODO add your handling code here:
-        if (quantity > 0){
-        quantity--;
-        txtm.setText(String.valueOf(quantity));
+        if (quantitym > 0){
+        quantitym--;
+        txtm.setText(String.valueOf(quantitym));
         }
         btnmd.setEnabled(true);
     }//GEN-LAST:event_btnmdActionPerformed
 
     private void btnmiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnmiActionPerformed
         // TODO add your handling code here:
-        if (quantity < 10 ){
-        quantity++;
-        txtm.setText(String.valueOf (quantity));
+        if (quantitym < 10 ){
+        quantitym++;
+        txtm.setText(String.valueOf (quantitym));
         }
         else {
            txtm.setText("Max");
@@ -426,18 +412,18 @@ public class studentorder extends javax.swing.JFrame {
 
     private void btnsdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsdActionPerformed
         // TODO add your handling code here:
-        if (quantity > 0){
-        quantity--;
-        txts.setText(String.valueOf(quantity));
+        if (quantitys > 0){
+        quantitys--;
+        txts.setText(String.valueOf(quantitys));
         }
         btnsd.setEnabled(true);
     }//GEN-LAST:event_btnsdActionPerformed
 
     private void btnsiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnsiActionPerformed
         // TODO add your handling code here:
-        if (quantity < 10 ){
-        quantity++;
-        txts.setText(String.valueOf (quantity));
+        if (quantitys < 10 ){
+        quantitys++;
+        txts.setText(String.valueOf (quantitys));
         }
         else {
            txts.setText("Max");
@@ -453,18 +439,18 @@ public class studentorder extends javax.swing.JFrame {
 
     private void btnbdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbdActionPerformed
         // TODO add your handling code here:
-        if (quantity > 0){
-        quantity--;
-        txtb.setText(String.valueOf(quantity));
+        if (quantityd > 0){
+        quantityd--;
+        txtb.setText(String.valueOf(quantityd));
         }
         btnbd.setEnabled(true);
     }//GEN-LAST:event_btnbdActionPerformed
 
     private void btnbiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnbiActionPerformed
         // TODO add your handling code here:
-        if (quantity < 10 ){
-        quantity++;
-        txtb.setText(String.valueOf (quantity));
+        if (quantityd < 10 ){
+        quantityd++;
+        txtb.setText(String.valueOf (quantityd));
         }
         else {
            txtb.setText("Max");
@@ -506,9 +492,9 @@ public class studentorder extends javax.swing.JFrame {
 
     private void btntiActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btntiActionPerformed
         // TODO add your handling code here:
-        if (quantity < 10 ){
-        quantity++;
-        txtt.setText(String.valueOf (quantity));
+        if (quantityt < 10 ){
+        quantityt++;
+        txtt.setText(String.valueOf (quantityt));
         }
         else {
            txtt.setText("Max");
@@ -520,14 +506,13 @@ public class studentorder extends javax.swing.JFrame {
         // TODO add your handling code here:
         txtt.setText("0");
         txtt.setEditable(false);
-        txtt.requestFocus();
     }//GEN-LAST:event_txttActionPerformed
 
     private void btntdActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btntdActionPerformed
         // TODO add your handling code here:
-        if (quantity > 0){
-        quantity--;
-        txtt.setText(String.valueOf(quantity));
+        if (quantityt > 0){
+        quantityt--;
+        txtt.setText(String.valueOf(quantityt));
         }
         btntd.setEnabled(true);
     }//GEN-LAST:event_btntdActionPerformed
@@ -573,8 +558,6 @@ public class studentorder extends javax.swing.JFrame {
     private javax.swing.JButton clearbtn;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
-    private javax.swing.JButton jButton3;
-    private javax.swing.JButton jButton4;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
@@ -591,6 +574,7 @@ public class studentorder extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JTextField jTextField1;
+    private java.awt.PopupMenu popupMenu1;
     private javax.swing.JButton revbtn;
     private javax.swing.JButton submitbtn;
     private javax.swing.JTextField txtb;
